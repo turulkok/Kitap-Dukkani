@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kitap Dukkani | Iletisim</title>
+    <link rel="stylesheet" href="css/contact.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <div class="container">
+        <ul>
+            <li><a href="/index.html">Anasayfa</a></li>
+            <li><a href="/shop.html">Magaza</a></li>
+            <li><a href="/contact.html" style="background-color: #23834c;">Iletisim</a></li>
+        </ul>
+        <div>
+            <h2>Bize Ulasin</h2>
+            <p>Bir fincan kahve içmek için uğrayın veya bize bir mesaj bırakın</p>
+        </div>
+        <div class="row">
+            <div class="column">
+                <img src="img/map.jpg" style="width: 100%;" alt="">
+            </div>
+            <div class="column">
+                <form action="/action_page.php">
+                    <label>Isim</label>
+                    <input type="text"  placeholder="Isim...">
+                    <label>Soyisim</label>
+                    <input type="text" placeholder="Soyisim...">
+                    <label>Sehir</label>
+                    <select id="country" name="country">
+                    <option value="Istanbul">Istanbul</option>
+                    <option value="Ankara">Ankara</option>
+                    <option value="Izmir">Izmir</option>
+                    <option value="Eskisehir">Eskisehir</option>
+                    </select>
+                    <label for="subject">Bize Yazin...</label>
+                    <textarea placeholder="Birseyler yazin..." style="height:170px"></textarea>
+                    <input type="submit" value="Gonder">
+                </form>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
